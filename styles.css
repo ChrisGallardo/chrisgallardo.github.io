@@ -1,0 +1,138 @@
+body {
+    background-color: #fff;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+}
+
+nav {
+    font-size: x-large;
+    padding-left: .5in;
+    padding-top: .25in;
+    padding-bottom: .25in;
+    padding-right: .5in;
+    height: 1in;
+    text-align: center;
+    background-color: #fff;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    padding-left: .5in;
+    padding-right: .5in;
+}
+
+.pedal-section {
+    height: 6.5in;
+    padding-right: 2in;
+    padding-top: .5in;
+    text-align: right;
+}
+
+.pedal-section a {
+    color: #000;
+}
+
+.fader {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.faded {
+    opacity: 1;
+}
+
+.pedal-image {
+    padding-left: 1in;
+    float: left;
+}
+
+.pedal-name {
+    font-size: xx-large;
+}
+
+.pedal-short-desc {
+    font-size: larger;
+    color: #4d4d56;
+    word-wrap: break-word;
+}
+
+.read-more {
+    padding: .5in .75in;
+}
+
+.overdrive {
+    background-color: #ffd151;
+}
+
+.chorus {
+    background-color: #3498db;
+}
+
+.looper {
+    background-color: rgba(255, 70, 54, 0.849);
+}
+
+.reverb {
+    background-color: rgb(52, 148, 52);
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.jumbotron {
+    background-color: #477bff;
+    color: #fff;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.section {
+    padding: 0.5rem 2rem 1rem 2rem;
+}
+
+.section:hover {
+    background-color: #f5f5f5;
+    transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+}
+
+button, input[type="submit"] {
+    background-color: #d9edff;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    font-size: 0.95rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0.375rem 0.75rem;
+    text-align: center;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    vertical-align: middle;
+}
+
+
+input[type="text"] {
+    line-height: 1.8;
+    width: 25%;
+}
+
+input[type="text"]:hover {
+    background-color: #f5f5f5;
+    transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
+}
